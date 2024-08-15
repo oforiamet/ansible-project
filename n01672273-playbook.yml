@@ -1,0 +1,8 @@
+---
+- hosts: linux
+  become: yes
+  roles:
+    - profile-n01672273
+    - user-n01672273
+    - datadisk-n01672273
+    - webserver-n01672273
